@@ -47,7 +47,11 @@ public class MainActivity extends AppCompatActivity {
         errorMsg.setText("");
     }
 
-    private int getInt(EditText e) {
-        return Integer.parseInt(e.getText().toString());
+    private int getInt(EditText e) throws Exception {
+        try {
+            return Integer.parseInt(e.getText().toString());
+        } catch (Exception ex) {
+            throw new Exception("Enter all fields...");
+        }
     }
 }
