@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             errorMsg.setText("");
         } catch (Exception e) {
             pintsView.setText("");
-            errorMsg.setText("Please enter all fields!");
+            errorMsg.setText(e.getMessage());
         }
     }
 
