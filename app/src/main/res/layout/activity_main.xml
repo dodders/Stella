@@ -11,6 +11,7 @@
         <TextView android:text="@string/age_msg" android:layout_width="100dp"
             android:layout_height="wrap_content" />
         <EditText android:id="@+id/age"
+            android:inputType="number"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -19,6 +20,7 @@
         <TextView android:text="@string/dress_msg" android:layout_width="100dp"
             android:layout_height="wrap_content" />
         <EditText android:id="@+id/dress"
+            android:inputType="number"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -28,6 +30,7 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
         <EditText android:id="@+id/rating"
+            android:inputType="number"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -43,6 +46,18 @@
     </LinearLayout>
 
     <Button android:id="@+id/calculate" android:text="@string/calc_msg"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="doCalc" />
+
+    <Button android:id="@+id/clear" android:text="@string/clear_msg"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="doClear" />
+
+    <TextView android:id="@+id/errorMsg"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
