@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Stella</string>
+    <string name="app_name">Ed's Stella Calculator</string>
+    <string name="age_msg">Age:</string>
+    <string name="dress_msg">Dress size:</string>
+    <string name="rating_msg">Rating:</string>
+    <string name="pints_msg">Pints required:</string>
+    <string name="pints"></string>
+    <string name="calc_msg">Calculate</string>
 </resources>
