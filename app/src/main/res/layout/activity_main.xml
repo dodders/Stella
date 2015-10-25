@@ -40,7 +40,9 @@
         <TextView android:text="@string/pints_msg"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
-        <TextView android:id="@+id/pints" android:text="@string/pints"
+        <TextView android:id="@+id/pints" android:text=""
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
